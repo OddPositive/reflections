@@ -9,3 +9,11 @@ The staging area ditates which files will be tracked by commits. It singles them
 How can you use the staging area to make sure you have one commit per logical change?
 
 You can use the staging area to make sure that you are recording changes made to separate files individually by staging them separately. That means if you have modified two files you can easily make two commits documenting the changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be helpful to keep your history organized when you are trying to implement different features because it would allow you to test them out individually without worrying about breakking your code or having to wade through multiple new features to find a bug. Branches allow you to keep things conceptually separate.
+
+How do the diagrams help you visualize the branch structure?
+
+When you draw diagrams you can see how and where the branches relate to one another, which helps you see what version the different branches are building on, and whether there are commits that cannot be reached by any of the commits.
