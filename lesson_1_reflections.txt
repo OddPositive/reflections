@@ -1,0 +1,21 @@
+How did viewing a diff between two versions of a file help you see the bug was introduced?
+
+By removing the lines that were the same in the old version (which we can rule out because it was working in the old version) I was able to only see the lines that had changed. I didn't have to weed through lots and lots of perfectly fine code in order to find a small typo, because most of the code hadn't changed. At every stage in the development process MOST of the code doesn't change. It only gets modified and moved around. 
+
+What do you think are the pros and cons of manually choosing when to make a commit, like you do in Git, vs having versions saved automatically saved, like Google Docs does?
+
+When you have a program save automatically you don't think in logical steps the way you are forced to when you have to save your own changes. It also might cut your edits in half leaving you with some unusable versions of your code being saved. This would probably make your code as a whole harder to interpret.
+
+Why do you think some version control systems, like git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Some things are more modular, and depend a lot more on previous revisions, while some other things like text editing tend to be more straightforward in terms of improvements. When you make a mistake while coding it can have ripple effects on the rest of the code. Word files are not really like that. Thinking in terms of version control is very valuable.
+
+How can you use the commands git log and git diff to view the history of files?
+When you execute gif log it shows you a list of recent commits. Git diff shows you the differences between two different files that you pass in according to their commit ids. 
+
+How might version control make you more confident to make changes that could break something? 
+Generally I make conservative changes because I worry that I will break something so badly I will have to start over entirely. When I have wanted to make big changes I  used a manual saving form of version control, especially in robotics, which allowed me to try out different approaches.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to use Git to make a more complex program by breaking it down into steps that can be individually fixed and played with.
