@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository it primes for starting to create commits. If everything you did on your computer had a repository associated that would be an enormous waste of space. You have to initialize it to create that space for collecting and tracking information.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area ditates which files will be tracked by commits. It singles them out as files to be worked on. You can modify files in the working directory, but unless you stage them with the add function you won't be able to commit the changes to the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use the staging area to make sure that you are recording changes made to separate files individually by staging them separately. That means if you have modified two files you can easily make two commits documenting the changes.
