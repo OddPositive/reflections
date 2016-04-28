@@ -5,3 +5,7 @@ Remote repositories allow you to collaborate with other people on code and work 
 Why might you also want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 You may be making changes in collaborative work that you are not ready to share yet, and there are the same problems that come along with saving anything automatically. It may not update the remote repository at a logical point, leaving files that are unworkable on the repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another/.
+
+Forks are cloned versions of a repository that are hosted on GitHub. They are used when you want to work on someone else's work without necessarily having to clone the content to your local machine. They also link back to the original, giving credit where credit is due. Clones are locally hosted versions of repositories, which are helpful if you are making larger modifications to the code in an editor. Branches are deviations which allow you to make changes that are atomic enough to be worked on independently.
